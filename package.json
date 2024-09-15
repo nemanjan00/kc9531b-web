@@ -2,15 +2,16 @@
   "name": "kc9531b-web",
   "version": "0.0.0",
   "description": "WebUI for controlling kc9531b",
-  "main": "index.js",
   "repository": "https://github.com/nemanjan00/kc9531b-web",
   "source": "src/index.html",
   "author": "Nemanja Nedeljkovic <nemanjan00@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "kc9531b": "^0.0.2",
+    "buffer": "^5.5.0||^6.0.0",
     "parcel": "^2.12.0",
     "web-serial-polyfill": "^1.0.15"
   },
-  "dependencies": {}
+  "dependencies": {
+    "kc9531b": "^0.0.3"
+  }
 }
