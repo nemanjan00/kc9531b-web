@@ -34,7 +34,7 @@ const openPort = port => {
 				if(data.done) {
 					setTimeout(() => {
 						read();
-					}, 100);
+					}, 10);
 				} else {
 					read();
 				}
